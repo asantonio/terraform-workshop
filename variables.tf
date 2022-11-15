@@ -7,3 +7,8 @@ variable "signalfx_realm" {
   type    = string
   default = "us1"
 }
+
+variable "username" {
+  type = string
+  default = "alastair"
+}
