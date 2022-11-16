@@ -1,14 +1,14 @@
 variable "signalfx_key" {
   type = string
-  default = "-8N4yZkZgayEmwxvsiPmtQ"
+  default = "ACCESS_TOKEN"
 }
 
 variable "signalfx_realm" {
   type    = string
-  default = "us1"
+  default = "REALM"
 }
 
 variable "username" {
   type = string
-  default = "alastair"
+  default = "USERNAME"
 }
